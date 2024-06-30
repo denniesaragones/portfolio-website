@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1400px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_Side{
+    position: relative;
+    background: #803D3B;
+    padding: 60px;
+}
+
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profileText .imgBx{
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(222, 222, 240);
+}
+
+.profileText .imgBx img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.containerInfo{
+    padding-top: 25px;
+    margin-left: -30px;
+}
+
+.containerskills{
+    padding-top: 25px;
+    margin-left: -30px;
+}
+
+.containerskills ul{
+    position: relative;
+}
+
+.containerskills ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    color: #e6d4d4;
+}
+
+.containerachievement h4{
+    color: rgb(50, 241, 241);
+}
+
+.containerachievement{
+    padding-top: 25px;
+    margin-left: -30px;
+}
+
+.containerachievement ul{
+    position: relative;
+    
+}
+
+.containerachievement ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    color: #e6d4d4;
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.containerInfo ul{
+    position: relative;
+}
+
+.containerInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.containerInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #a0b0db;
+}
+
+.containerInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+    font-size: small;
+}
+
+.container .resume.png{
+    width: 10%;
+    height: 0%;
+}
+
+.container .right_Side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about{
+    margin-bottom: 70px;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+p{
+    color: #333;
+    margin-top: 15px;
+}
+
+/*.title3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-size: large;
+    color: rgb(3, 3, 49);
+}*/
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .year_education{
+    min-width: 250px;
+}
+
+.about .box .year_education h5{
+    text-transform: uppercase;
+    color: #4c5e8f;
+    font-weight: 600;
+}
+
+.about .box .text h4{
+    text-transform: uppercase;
+    color: #411b1a;
+    font-size: 17px;
+}
+
+.about .box .text h3{
+    text-transform: uppercase;
+    color: #411b1a;
+    font-size: 14px;
+}
+
+.about .box .text p{
+    font-size: 14px;
+}
